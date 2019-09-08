@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectKey">
-    <option name="state" value="project://e2804f05-5315-4fc6-a121-c522a6c26470" />
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
-</project>
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/Converter.iml" filepath="$PROJECT_DIR$/Converter.iml" />
-    </modules>
-  </component>
-</project>
-<template>
-  <input-field default="com.company">IJ_BASE_PACKAGE</input-field>
-</template>
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59184e36-2895-45c9-9dfd-be5e1205d8b7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,7 +14,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="306">
               <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
               <folding>
                 <element signature="e#1020#1021#0" expanded="true" />
@@ -93,7 +73,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567953890335" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567954021450" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -134,15 +114,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567949835732</updated>
-      <workItem from="1567949839494" duration="2892000" />
+      <workItem from="1567949839494" duration="3149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2892000" />
+    <option name="totallyTimeSpent" value="3149000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -189,7 +169,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="306">
           <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
           <folding>
             <element signature="e#1020#1021#0" expanded="true" />
@@ -198,12 +178,5 @@
         </state>
       </provider>
     </entry>
-  </component>
-</project>
-<html>Simple <b>Java</b> application that includes a class with <code>main()</code> method</html>
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
-    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
