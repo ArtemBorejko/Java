@@ -10,18 +10,13 @@ import java.lang.String;
             System.out.println("Введите строку: ");
             String str = in.nextLine();
             StringBuffer sb = new StringBuffer(str);
-            main.update(str, sb);
-            main.output(str, sb);
-        }
-
-        public void update(String str, StringBuffer sb) {
             int index_p = str.indexOf('р');
             if (index_p == -1) {
                 int index_P = str.indexOf('Р');
-                replace(str, sb, index_P);
-            } else if(index_p == 0) {
-                replace(str, sb, index_p);
-            }
+                main.replace(str, sb, index_P);
+            } else
+                main.replace(str, sb, index_p);
+            main.output(str, sb);
         }
 
         private void replace(String str, StringBuffer sb, int index_p) {
@@ -31,7 +26,6 @@ import java.lang.String;
                 sb.insert(index_a, 'о');
             }
         }
-
 
         public void output(String str, StringBuffer sb){
             System.out.println(str);
