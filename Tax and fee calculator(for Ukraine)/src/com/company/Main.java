@@ -5,16 +5,19 @@ import java.util.Scanner;
 public class Main {
 
     public void comparator(){
-        double sum = input(), tax, fee;
+        double sum = input(), tax, fee, price;
         if(sum < 100 && sum > 0) {
-            System.out.println("This sum can not be taxed!");
+            System.out.println("This sum can not be taxed, so your sum is " + sum);
+            comparator();
         }
         else if(sum > 100) {
+            price = sum;
             sum = sum - 100;
             tax = tax(sum);
             fee = fee(sum);
             System.out.println("Tax: " + tax);
             System.out.println("Fee: " + fee);
+            System.out.println("So your sum is " + (price + tax + fee));
         }
         else System.out.println("Incorrect input!");
     }
