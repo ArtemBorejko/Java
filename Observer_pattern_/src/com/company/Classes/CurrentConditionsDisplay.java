@@ -10,6 +10,7 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
     private float hum;
     private float pressure;
     private Subject weatherData;
+
 // Конструктор класса, здесь конструктору передается объект WeatherData.
     public CurrentConditionsDisplay(Subject weatherData){
         this.weatherData = weatherData;

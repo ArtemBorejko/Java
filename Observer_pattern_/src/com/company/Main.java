@@ -9,12 +9,8 @@ public class Main {
         WeatherData weatherData = new WeatherData();
 
         CurrentConditionsDisplay currentConditionsDisplay = new CurrentConditionsDisplay(weatherData);
-
-        weatherData.setMeasurements(25, 65, 25.3f);
-        weatherData.notifyObservers();
-        weatherData.setMeasurements(27, 80, 26.4f);
-        weatherData.notifyObservers();
-        weatherData.setMeasurements(23, 95, 22.1f);
-        weatherData.notifyObservers();
+        currentConditionsDisplay.update(26, 45, 25.8f);
+        currentConditionsDisplay.update(27, 68, 23.3f);
+        currentConditionsDisplay.update(29, 78, 22.1f);
     }
 }
