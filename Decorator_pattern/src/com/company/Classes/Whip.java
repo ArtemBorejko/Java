@@ -1,5 +1,5 @@
 package com.company.Classes;
-
+//Класс для декоратора соя, расширяет класс CondimentDecorator, который в свою очередь, расширяет класс Beverage.
 public class Whip extends CondimentDecorator {
     Beverage beverage;
 

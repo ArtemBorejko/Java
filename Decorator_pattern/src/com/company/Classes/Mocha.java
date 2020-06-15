@@ -1,5 +1,5 @@
 package com.company.Classes;
-
+//Класс для декоратора шоколад, расширяет класс CondimentDecorator, который в свою очередь, расширяет класс Beverage.
 public class Mocha extends CondimentDecorator {
     Beverage beverage;
 
