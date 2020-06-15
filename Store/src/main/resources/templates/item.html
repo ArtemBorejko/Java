@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Add new item</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Add new item</h1>
+<form action="#" th:action="@{/item}" th:object="${item}" method="post">
+    <p>Id: <input type="number" th:field="*{idOfItem}" /></p>
+    <p>Name: <input type="text" th:field="*{name}" /></p>
+    <p>ListOfCon: <input type="text" th:field="*{listOfCon}" /></p>
+    <p>Сharacteristics: <input type="text" th:field="*{charac}" /></p>
+    <p>Price: <input type="number" th:field="*{price}" /></p>
+    <p>Batch number: <input type="number" th:field="*{numOfPar}" /></p>
+    <p>Quantity in stock: <input type="number" th:field="*{number}" /></p>
+    <p><input type="submit" value="Submit" /><input type="reset" value="Reset" /></p>
+</form>
+</body>
+</html>

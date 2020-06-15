@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Add new client</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Add new worker</h1>
+<form action="#" th:action="@{/worker}" th:object="${worker}" method="post">
+    <p>Id: <input type="number" th:field="*{idOfWorker}" /></p>
+    <p>Name: <input type="text" th:field="*{login}" /></p>
+    <p>Email: <input type="password" th:field="*{password}" /></p>
+    <p>Enter you fullname: <input type="text" th:field="*{fullname}" /></p>
+    <p>Your post: <input type="text" th:field="*{post}"></p>
+    <p>Phone: <input type="text" th:field="*{phone}" /></p>
+    <p>Date of start: <input type="date" th:field="*{dateofstart}" /></p>
+    <p>Date of birthday: <input type="date" th:field="*{dateofbirthday}" /></p>
+    <p>Identification code: <input type="text" th:field="*{idencode}"></p>
+    <p><input type="submit" value="Submit" /><input type="reset" value="Reset" /></p>
+</form>
+</body>
+</html>
