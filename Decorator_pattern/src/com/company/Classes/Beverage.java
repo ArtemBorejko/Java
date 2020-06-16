@@ -1,5 +1,5 @@
 package com.company.Classes;
-
+//Основной класс, должен быть абстрактным.
 public abstract class Beverage {
     String description = "Unknown Beverage";
 
