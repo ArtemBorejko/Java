@@ -13,7 +13,7 @@ public class DoubleEps {
             i++;
         }
         end = System.nanoTime();
-        time = end - start;
+        time = (end - start)/1000;
         System.out.println("Double: " + e + "\nTime spent: " + time + "\nIterations ratio: " + i);
     }
 }
